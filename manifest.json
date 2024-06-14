@@ -1,0 +1,21 @@
+{
+  "background_color": "#000000",
+  "display": "standalone",
+  "lang": "en",
+  "name": "Color-App",
+  "short_name": "Color-App",
+  "start_url": "/?utm_source=web_app_manifest",
+  "orientation": "portrait",
+  "related_applications": [
+    {
+      "platform": "itunes",
+      "id": "com.a19morales89.ColorApp"
+    },
+    {
+      "platform": "play",
+      "url": "http://play.google.com/store/apps/details?id=com.a19morales89.ColorApp",
+      "id": "com.a19morales89.ColorApp"
+    }
+  ],
+  "prefer_related_applications": true
+}
