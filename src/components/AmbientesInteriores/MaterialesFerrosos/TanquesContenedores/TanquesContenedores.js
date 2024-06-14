@@ -13,25 +13,25 @@ export default function EquiposProductivos({ navigation }) {
                 <Text style={styles.subtitle}>
                     Tanques de agua, Resinas, Aceites, etc.
                 </Text>
-                <Text style={styles.title3}>A ser pintados externamente</Text>
+                <Text style={styles.title3}>(A ser pintados externamente)</Text>
                 <Text style={styles.title2}>Grado de Exposición</Text>
             </View>
             <View style={styles.buttonContainer}>
                 <TouchableOpacity
                     style={styles.button}
-                    onPress={() => navigation.navigate('OtrasSuperficies')}
+                    onPress={() => navigation.navigate('NormalTC')}
                 >
                     <Text style={styles.buttonText}>Normal</Text>
                 </TouchableOpacity>
                 <TouchableOpacity
                     style={styles.button}
-                    onPress={() => navigation.navigate('OtrasSuperficies')}
+                    onPress={() => navigation.navigate('ModeradoTC')}
                 >
                     <Text style={styles.buttonText}>Moderado</Text>
                 </TouchableOpacity>
                 <TouchableOpacity
                     style={styles.button}
-                    onPress={() => navigation.navigate('OtrasSuperficies')}
+                    onPress={() => navigation.navigate('AgresivoTC')}
                 >
                     <Text style={styles.buttonText}>Agresivo</Text>
                 </TouchableOpacity>

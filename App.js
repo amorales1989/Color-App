@@ -19,6 +19,17 @@ import TanquesContenedores from './src/components/AmbientesInteriores/Hormigon/T
 import EquiposProductivos from './src/components/AmbientesInteriores/MaterialesFerrosos/EquiposProductivos/EquiposProductivos';
 import EquiposNoProductivos from './src/components/AmbientesInteriores/MaterialesFerrosos/EquiposNOproductivos/EquiposNoProductivos';
 import TanquesContenedoresMF from './src/components/AmbientesInteriores/MaterialesFerrosos/TanquesContenedores/TanquesContenedores';
+import Hasta400 from './src/components/AmbientesInteriores/MaterialesFerrosos/CiclosDeCalor/Hasta400°C';
+import Hasta550 from './src/components/AmbientesInteriores/MaterialesFerrosos/CiclosDeCalor/Hasta550°C';
+import NormalEP from './src/components/AmbientesInteriores/MaterialesFerrosos/EquiposProductivos/Normal';
+import ModeradoEP from './src/components/AmbientesInteriores/MaterialesFerrosos/EquiposProductivos/Moderado';
+import AgresivoEP from './src/components/AmbientesInteriores/MaterialesFerrosos/EquiposProductivos/Agresivo';
+import NormalENP from './src/components/AmbientesInteriores/MaterialesFerrosos/EquiposNOproductivos/Normal';
+import ModeradoENP from './src/components/AmbientesInteriores/MaterialesFerrosos/EquiposNOproductivos/Moderado';
+import AgresivoENP from './src/components/AmbientesInteriores/MaterialesFerrosos/EquiposNOproductivos/Agresivo';
+import AgresivoTC from './src/components/AmbientesInteriores/MaterialesFerrosos/TanquesContenedores/Agresivo';
+import ModeradoTC from './src/components/AmbientesInteriores/MaterialesFerrosos/TanquesContenedores/Moderado';
+import NormalTC from './src/components/AmbientesInteriores/MaterialesFerrosos/TanquesContenedores/Normal';
 
 const Stack = createStackNavigator();
 
@@ -33,10 +44,21 @@ export default function App() {
         <Stack.Screen name="OtrasSuperficies" component={OtrasSuperficies} options={{ headerShown: false }} />
         <Stack.Screen name="MaterialesFerrosos" component={MaterialesFerrosos} options={{ headerShown: false }} />
         <Stack.Screen name="EquiposProductivos" component={EquiposProductivos} options={{ headerShown: false }} />
+        <Stack.Screen name="NormalEP" component={NormalEP} options={{ headerShown: false }} />
+        <Stack.Screen name="ModeradoEP" component={ModeradoEP} options={{ headerShown: false }} />
+        <Stack.Screen name="AgresivoEP" component={AgresivoEP} options={{ headerShown: false }} />
         <Stack.Screen name="EquiposNoProductivos" component={EquiposNoProductivos} options={{ headerShown: false }} />
+        <Stack.Screen name="NormalENP" component={NormalENP} options={{ headerShown: false }} />
+        <Stack.Screen name="ModeradoENP" component={ModeradoENP} options={{ headerShown: false }} />
+        <Stack.Screen name="AgresivoENP" component={AgresivoENP} options={{ headerShown: false }} />
         <Stack.Screen name="TanquesContenedoresMF" component={TanquesContenedoresMF} options={{ headerShown: false }} />
+        <Stack.Screen name="NormalTC" component={NormalTC} options={{ headerShown: false }} />
+        <Stack.Screen name="ModeradoTC" component={ModeradoTC} options={{ headerShown: false }} />
+        <Stack.Screen name="AgresivoTC" component={AgresivoTC} options={{ headerShown: false }} />
         <Stack.Screen name="CiclosDeCalor" component={CiclosDeCalor} options={{ headerShown: false }} />
         <Stack.Screen name="Hasta200" component={Hasta200} options={{ headerShown: false }} />
+        <Stack.Screen name="Hasta400" component={Hasta400} options={{ headerShown: false }} />
+        <Stack.Screen name="Hasta550" component={Hasta550} options={{ headerShown: false }} />
         <Stack.Screen name="MaterialesNoFerrosos" component={MaterialesNoFerrosos} options={{ headerShown: false }} />
         <Stack.Screen name="Mamposteria" component={Mamposteria} options={{ headerShown: false }} />
         <Stack.Screen name="Hormigon" component={Hormigon} options={{ headerShown: false }} />

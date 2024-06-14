@@ -17,19 +17,19 @@ export default function EquiposProductivos({ navigation }) {
       <View style={styles.buttonContainer}>
         <TouchableOpacity
           style={styles.button}
-          onPress={() => navigation.navigate('OtrasSuperficies')}
+          onPress={() => navigation.navigate('NormalEP')}
         >
           <Text style={styles.buttonText}>Normal</Text>
         </TouchableOpacity>
         <TouchableOpacity
           style={styles.button}
-          onPress={() => navigation.navigate('OtrasSuperficies')}
+          onPress={() => navigation.navigate('ModeradoEP')}
         >
           <Text style={styles.buttonText}>Moderado</Text>
         </TouchableOpacity>
         <TouchableOpacity
           style={styles.button}
-          onPress={() => navigation.navigate('OtrasSuperficies')}
+          onPress={() => navigation.navigate('AgresivoEP')}
         >
           <Text style={styles.buttonText}>Agresivo</Text>
         </TouchableOpacity>

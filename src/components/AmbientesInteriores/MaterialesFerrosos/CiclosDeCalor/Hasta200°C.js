@@ -23,6 +23,7 @@ export default function Hasta200({ navigation }) {
 
     return (
         <><View style={styles.titleContainer}>
+            <Text style={styles.title}>Hasta 200° C</Text>
             <Text style={styles.title2}>Esquemas Amix Recomendados</Text>
         </View>
             <View style={styles.container}>
@@ -100,6 +101,12 @@ const styles = StyleSheet.create({
     title2: {
         fontSize: 30,
         fontWeight: 'bold',
+    },
+    title: {
+        fontSize: 30,
+        fontWeight: 'bold',
+        marginBottom: 70,
+        marginTop: 20,
     },
     buttonContainer: {
         flexDirection: 'row',
