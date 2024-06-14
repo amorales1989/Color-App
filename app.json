@@ -1,36 +1,35 @@
 {
   "expo": {
-    "name": "ChurchTools",
-    "slug": "schoolTools-app",
+    "name": "Color-App",
+    "slug": "Color-App",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/A2.png",
+    "icon": "./assets/color.gif",
     "userInterfaceStyle": "light",
+    "platforms": ["ios", "android", "web"],
     "splash": {
-      "image": "./assets/A2.png",
+      "image": "./assets/color.gif",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#000000"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.a19morales89.ColorApp"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/A2.png"
+        "foregroundImage": "./assets/color.gif",
+        "backgroundColor": "#000000"
       },
-      "package": "com.a19morales89.schoolToolsapp",
+      "package": "com.a19morales89.ColorApp",
       "versionCode": 1
     },
     "web": {
-      "favicon": "./assets/A2.png"
+      "favicon": "./assets/favicon.png"
     },
     "extra": {
-      "REACT_APP_URL": "http://api-schooltools.onrender.com/",
       "eas": {
-        "projectId": "f0233eb9-67b6-46ac-873a-1ac2a602d6ea"
+        "projectId": "43a6a6a0-7b84-424a-9720-88af1f3deeba"
       }
     }
   }
