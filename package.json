@@ -6,8 +6,8 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo build:web",
-    "build": "eas build -p android",
+    "web": "npx expo build:web",
+    "build": "npx expo build:web",
     "predeploy": "expo export",
     "deploy": "gh-pages -d dist"
   },
